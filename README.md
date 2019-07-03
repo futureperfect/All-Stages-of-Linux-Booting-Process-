@@ -20,9 +20,9 @@ In case of hard disks and many other mass storage media, the boot sector is MBR.
 • Last 2 bytes are for MBR signature, also called magic number. (Thus total of 446 + 64 + 2 = 512 bytes).
 
 ```
-|=================|======|======|======|======|===|
+|-|-|-|-|-|-|
 | 446 | 16 | 16 | 16 | 16 | 2 |
-|=================|======|======|======|======|===|
+|-|-|-|-|-|-|
 ```
 
 The first 446 bytes of MBR contain the code that locates the partition to boot from. The rest of booting process takes place from that partition. This partition contains a software program for booting the system called the 'bootloader'.
