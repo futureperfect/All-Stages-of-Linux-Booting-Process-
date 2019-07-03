@@ -22,7 +22,7 @@ In case of hard disks and many other mass storage media, the boot sector is MBR.
 |Bootable Code| Partition 1|Partition 2 | Partition 3| Partition 4| Magic Number | 
 |-|-|-|-|-|-|
 | 446 | 16 | 16 | 16 | 16 | 2 |
-|-|-|-|-|-|-|
+
 
 
 The first 446 bytes of MBR contain the code that locates the partition to boot from. The rest of booting process takes place from that partition. This partition contains a software program for booting the system called the 'bootloader'.
